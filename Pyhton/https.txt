@@ -1,0 +1,5 @@
+https://www.pelock.com/products/hash-calculator
+
+https://www.pycryptodome.org/src/signature/dsa
+
+

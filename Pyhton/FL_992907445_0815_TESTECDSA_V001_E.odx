@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ODX xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="odx.xsd" MODEL-VERSION="2.0.1">
+  <FLASH ID="FL_992907445_0815_TESTECDSA_V001_E">
+    <SHORT-NAME>FL_992907445_0815_TESTECDSA_V001_E</SHORT-NAME>
+    <LONG-NAME>992 907 445 _0815 _TEST ECDSA  _V001 _E</LONG-NAME>
+    <ADMIN-DATA>
+      <DOC-REVISIONS>
+        <DOC-REVISION>
+          <TEAM-MEMBER-REF ID-REF="Compy_.TM_"></TEAM-MEMBER-REF>
+          <REVISION-LABEL>0815_V001</REVISION-LABEL>
+          <STATE>NEW</STATE>
+          <DATE>2022-09-16T16:37:27</DATE>
+          <TOOL>AUDI-VW ODX-Generator V2.64</TOOL>
+        </DOC-REVISION>
+      </DOC-REVISIONS>
+    </ADMIN-DATA>
+    <COMPANY-DATAS>
+      <COMPANY-DATA ID="Compy_">
+        <SHORT-NAME>Compy_</SHORT-NAME>
+        <LONG-NAME></LONG-NAME>
+        <TEAM-MEMBERS>
+          <TEAM-MEMBER ID="Compy_.TM_">
+            <SHORT-NAME>TM_</SHORT-NAME>
+            <LONG-NAME> </LONG-NAME>
+            <DESC>
+              <p>Mitarbeiter der Firma </p>
+            </DESC>
+            <ROLES>
+              <ROLE>Contact person consultant</ROLE>
+            </ROLES>
+            <DEPARTMENT></DEPARTMENT>
+            <ADDRESS></ADDRESS>
+            <ZIP></ZIP>
+            <CITY></CITY>
+            <PHONE></PHONE>
+            <FAX></FAX>
+            <EMAIL></EMAIL>
+          </TEAM-MEMBER>
+        </TEAM-MEMBERS>
+        <COMPANY-SPECIFIC-INFO>
+          <SDGS>
+            <SDG>
+            </SDG>
+          </SDGS>
+        </COMPANY-SPECIFIC-INFO>
+      </COMPANY-DATA>
+    </COMPANY-DATAS>
+    <ECU-MEMS>
+      <ECU-MEM ID="EMEM_992907445_0815_TESTECDSA_V001_E">
+        <SHORT-NAME>EMEM_992907445_0815_TESTECDSA_V001_E</SHORT-NAME>
+        <LONG-NAME>992 907 445 _0815 _TEST ECDSA  _V001 _E</LONG-NAME>
+        <DESC>
+          <p>ODX FLASH-Container beinhaltet alle Informationen zum Flashen eines Steuergeraets
+		@@Programmiervorbedingung[0](129=&quot;Required time delay after failed security access not expired&quot;)</p>
+        </DESC>
+        <MEM>
+          <SESSIONS>
+            <SESSION ID="EMEM_992907445_0815_TESTECDSA_V001_E.SES_992907445_0815_TESTECDSA_V001_E">
+              <SHORT-NAME>SES_992907445_0815_TESTECDSA_V001_E</SHORT-NAME>
+              <LONG-NAME>992 907 445 _0815 _TEST ECDSA  _V001 _E</LONG-NAME>
+              <SECURITYS>
+                <SECURITY>
+                  <SECURITY-METHOD TYPE="A_ASCIISTRING">SA2</SECURITY-METHOD>
+                  <FW-SIGNATURE TYPE="A_BYTEFIELD">46684C</FW-SIGNATURE>
+                </SECURITY>
+                <SECURITY>
+                  <SECURITY-METHOD TYPE="A_ASCIISTRING">ALFID</SECURITY-METHOD>
+                  <FW-SIGNATURE TYPE="A_BYTEFIELD">02422004</FW-SIGNATURE>
+                </SECURITY>
+                <SECURITY>
+                  <SECURITY-METHOD TYPE="A_ASCIISTRING">SIG_SHA256-ECDSA_E</SECURITY-METHOD>
+                  <FW-SIGNATURE TYPE="A_BYTEFIELD">C6D2CCD6E04994C69596845E521921DA48E169E2DE6502EBBFCC377E6B080C6380C0639A631B773EAB07CD7FFA5247E5BC0894D8D040C071B52E0C9F6E761D9F</FW-SIGNATURE>
+                  <FW-CHECKSUM TYPE="A_BYTEFIELD">5A82FD08</FW-CHECKSUM>
+                  <VALIDITY-FOR TYPE="A_ASCIISTRING">DB_0001FLASHDATA</VALIDITY-FOR>
+                </SECURITY>
+              </SECURITYS>
+              <DATABLOCK-REFS>
+                <DATABLOCK-REF ID-REF="EMEM_992907445_0815_TESTECDSA_V001_E.DB_0001FLASHDATA"></DATABLOCK-REF>
+              </DATABLOCK-REFS>
+              <SDGS>
+                <SDG>
+                  <SDG-CAPTION ID="EMEM_992907445_0815_TESTECDSA_V001_E.SES_992907445_0815_TESTECDSA_V001_E.SDGC_FDSProjeID">
+                    <SHORT-NAME>SDGC_FDSProjeID</SHORT-NAME>
+                    <LONG-NAME>FDS-Project-ID</LONG-NAME>
+                  </SDG-CAPTION>
+                  <SD SI="FDS-Project-ID">2272</SD>
+                </SDG>
+                <SDG>
+                  <SDG-CAPTION ID="EMEM_992907445_0815_TESTECDSA_V001_E.SES_992907445_0815_TESTECDSA_V001_E.SDGC_ECUMEMSPEC">
+                    <SHORT-NAME>SDGC_ECUMEMSPEC</SHORT-NAME>
+                    <LONG-NAME>ECU-MEM-SPEC</LONG-NAME>
+                  </SDG-CAPTION>
+                  <SD SI="ECU-MEM-SPEC-VERSION">4.5.0</SD>
+                </SDG>
+                <SDG>
+                  <SDG-CAPTION ID="EMEM_992907445_0815_TESTECDSA_V001_E.SES_992907445_0815_TESTECDSA_V001_E.SDGC_VW80126">
+                    <SHORT-NAME>SDGC_VW80126</SHORT-NAME>
+                    <LONG-NAME>VW 80126</LONG-NAME>
+                  </SDG-CAPTION>
+                  <SD SI="VW80126-VERSION">2.9.0</SD>
+                </SDG>
+                <SDG>
+                  <SDG-CAPTION ID="EMEM_992907445_0815_TESTECDSA_V001_E.SES_992907445_0815_TESTECDSA_V001_E.SDGC_ECUDIAGNCLASS">
+                    <SHORT-NAME>SDGC_ECUDiagnClass</SHORT-NAME>
+                    <LONG-NAME>ECU Diagnostic Class</LONG-NAME>
+                  </SDG-CAPTION>
+                  <SD SI="ECU-Diagnostic-Class">DK4</SD>
+                </SDG>
+                <SDG>
+                  <SDG-CAPTION ID="EMEM_992907445_0815_TESTECDSA_V001_E.SES_992907445_0815_TESTECDSA_V001_E.SDGC_ORUParti">
+                    <SHORT-NAME>SDGC_ORUParti</SHORT-NAME>
+                    <LONG-NAME>ORU Participant</LONG-NAME>
+                  </SDG-CAPTION>
+                  <SD SI="ORUParticipant">no</SD>
+                </SDG>
+              </SDGS>
+            </SESSION>
+          </SESSIONS>
+          <DATABLOCKS>
+            <DATABLOCK ID="EMEM_992907445_0815_TESTECDSA_V001_E.DB_0001FLASHDATA" TYPE="FLASH_DATA">
+              <SHORT-NAME>DB_0001FLASHDATA</SHORT-NAME>
+              <LONG-NAME>0001 FLASH DATA</LONG-NAME>
+              <FLASHDATA-REF ID-REF="EMEM_992907445_0815_TESTECDSA_V001_E.FD_0001FLASHDATA"></FLASHDATA-REF>
+              <SEGMENTS>
+                <SEGMENT ID="EMEM_992907445_0815_TESTECDSA_V001_E.DB_0001FLASHDATA.SEG_0001FLASHDATA01">
+                  <SHORT-NAME>SEG_0001FLASHDATA01</SHORT-NAME>
+                  <LONG-NAME>0001 FLASH DATA 01</LONG-NAME>
+                  <SOURCE-START-ADDRESS>0001</SOURCE-START-ADDRESS>
+                  <UNCOMPRESSED-SIZE>4</UNCOMPRESSED-SIZE>
+                </SEGMENT>
+              </SEGMENTS>
+              <SDGS>
+                <SDG>
+                  <SDG-CAPTION ID="EMEM_992907445_0815_TESTECDSA_V001_E.DB_0001FLASHDATA.SDGC_LOGICBLOCKINDEXDB0001">
+                    <SHORT-NAME>SDGC_LOGICBLOCKINDEXDB0001</SHORT-NAME>
+                    <LONG-NAME>LOGICAL BLOCK INDEX DB 0001</LONG-NAME>
+                  </SDG-CAPTION>
+                  <SD SI="LOGICAL-BLOCK-INDEX">0001</SD>
+                </SDG>
+              </SDGS>
+            </DATABLOCK>
+          </DATABLOCKS>
+          <FLASHDATAS>
+            <FLASHDATA ID="EMEM_992907445_0815_TESTECDSA_V001_E.FD_0001FLASHDATA" xsi:type="INTERN-FLASHDATA">
+              <SHORT-NAME>FD_0001FLASHDATA</SHORT-NAME>
+              <LONG-NAME>0001 FLASH DATA</LONG-NAME>
+              <DATAFORMAT SELECTION="BINARY"></DATAFORMAT>
+              <ENCRYPT-COMPRESS-METHOD TYPE="A_BYTEFIELD">00</ENCRYPT-COMPRESS-METHOD>
+              <DATA>3132330A</DATA>
+            </FLASHDATA>
+          </FLASHDATAS>
+        </MEM>
+      </ECU-MEM>
+    </ECU-MEMS>
+    <ECU-MEM-CONNECTORS>
+      <ECU-MEM-CONNECTOR ID="EMC_992907445_0815_TESTECDSA_V001_E">
+        <SHORT-NAME>EMC_992907445_0815_TESTECDSA_V001_E</SHORT-NAME>
+        <LONG-NAME>992 907 445 _0815 _TEST ECDSA  _V001 _E</LONG-NAME>
+        <SESSION-DESCS>
+          <SESSION-DESC DIRECTION="DOWNLOAD">
+            <SHORT-NAME>SESD_992907445_0815_TESTECDSA_V001_E</SHORT-NAME>
+            <LONG-NAME>992 907 445 _0815 _TEST ECDSA  _V001 _E</LONG-NAME>
+            <PARTNUMBER>992907445  </PARTNUMBER>
+            <SESSION-SNREF SHORT-NAME="SES_992907445_0815_TESTECDSA_V001_E"></SESSION-SNREF>
+            <DIAG-COMM-SNREF SHORT-NAME="SinglJob_FlashJobUDS"></DIAG-COMM-SNREF>
+          </SESSION-DESC>
+        </SESSION-DESCS>
+        <ECU-MEM-REF ID-REF="EMEM_992907445_0815_TESTECDSA_V001_E"></ECU-MEM-REF>
+        <LAYER-REFS>
+          <LAYER-REF DOCREF="BV_STEERUDS" DOCTYPE="LAYER" ID-REF="BV_STEERUDS"></LAYER-REF>
+          <LAYER-REF DOCREF="EV_STEERUDS_001" DOCTYPE="LAYER" ID-REF="EV_STEERUDS_001"></LAYER-REF>
+        </LAYER-REFS>
+      </ECU-MEM-CONNECTOR>
+    </ECU-MEM-CONNECTORS>
+  </FLASH>
+</ODX>
