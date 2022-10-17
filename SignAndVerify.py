@@ -10,6 +10,8 @@ from Crypto.Signature import eddsa, DSS, pkcs1_15, PKCS1_PSS, PKCS1_v1_5, pss
 print ("Versiion 4 olacak ")
 print ("Versiion 3 yaptim")
 
+print ("Versiion 5 2Zqwief")
+
 class Signature(Enum):
     RSA1k = 1
     RSA3k = 3
