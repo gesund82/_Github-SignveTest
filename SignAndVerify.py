@@ -7,7 +7,8 @@ from Crypto.PublicKey import ECC, RSA
 from Crypto.Signature import eddsa, DSS, pkcs1_15, PKCS1_PSS, PKCS1_v1_5, pss
 
 
-print ("Versiion 3 herhalde")
+print ("Versiion 4 olacak ")
+print ("Versiion 3 yaptim")
 
 class Signature(Enum):
     RSA1k = 1
