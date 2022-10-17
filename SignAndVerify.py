@@ -6,7 +6,6 @@ from Crypto.Hash import SHA1, SHA256, SHA384, SHA512
 from Crypto.PublicKey import ECC, RSA
 from Crypto.Signature import eddsa, DSS, pkcs1_15, PKCS1_PSS, PKCS1_v1_5, pss
 
-print ("TEST SECURITY METHODS")
 
 class Signature(Enum):
     RSA1k = 1
